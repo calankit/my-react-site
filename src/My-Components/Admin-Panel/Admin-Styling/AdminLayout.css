@@ -1,0 +1,61 @@
+/* Sidebar & Wrapper */
+#wrapper {
+    display: flex;
+    height: 100vh;
+  }
+  
+  #sidebar-wrapper {
+    min-width: 240px;
+    max-width: 250px;
+    background-color: #343a40;
+    transition: all 0.3s;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -240px;
+  }
+  
+  .sidebar-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #212529;
+  }
+  
+  #sidebar-wrapper a {
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  #sidebar-wrapper a:hover {
+    color: #ffc107;
+  }
+  
+  .btn:focus {
+    box-shadow: none;
+  }
+  
+  #sidebar-wrapper .btn,
+  #sidebar-wrapper a {
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect */
+  #sidebar-wrapper .btn:hover,
+  #sidebar-wrapper a:hover {
+    background-color: #495057; /* Darker shade */
+    color: #ffc107 !important; /* Bootstrap yellow */
+  }
+  
+  /* Collapse items spacing and style */
+  #sidebar-wrapper .collapse a {
+    padding-left: 1.5rem;
+    font-size: 0.95rem;
+  }
+  
+  body {
+    background-color: #f5f6fa;
+    overflow-x: hidden;
+  }
+  

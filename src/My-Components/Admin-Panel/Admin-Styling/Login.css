@@ -1,0 +1,33 @@
+/* Admin-Styling/Login.css */
+
+.login-wrapper {
+
+    color: #333;
+  }
+  
+  .login-card {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 8px #764ba2;
+    border-color: #764ba2;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #764ba2;
+    border-color: #764ba2;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5a367a;
+    border-color: #5a367a;
+  }
+  
+  .alert {
+    font-weight: 600;
+  }
+  
